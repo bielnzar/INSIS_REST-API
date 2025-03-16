@@ -20,9 +20,9 @@ const masjidSchema = new mongoose.Schema({
   waktu_selesai_tarawih: { type: String, required: true },
   hari: { type: String, required: true },
   menu_takjil: { type: String, required: true },
-  gambar: { type: String, required: true }, // Tambahkan field gambar
-  kapasitas: { type: Number, required: true }, // Tambahkan field kapasitas
-  fasilitas: { type: [String], required: true }, // Tambahkan field fasilitas
+  gambar: { type: String, required: true },
+  kapasitas: { type: Number, required: true },
+  fasilitas: { type: [String], required: true },
 });
 const Masjid = mongoose.model("Masjid", masjidSchema);
 
