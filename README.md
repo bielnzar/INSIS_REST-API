@@ -50,27 +50,31 @@ node app.js
 
 ### Cara menguji di Postman
 
-1. POST /masjid (Menambah banyak masjid sekaligus)
-   Method: POST
-   URL: http://localhost:3000/masjid
-   Body: Pilih raw, tipe JSON, lalu masukkan contoh data di atas.
+1. **POST /masjid** (Menambah banyak masjid sekaligus)
 
-1. GET /masjid (Melihat semua masjid)
-   Method: GET
-   URL: http://localhost:3000/masjid
+   - Method: POST
+   - URL: `http://localhost:3000/masjid`
+   - Body: Pilih raw, tipe JSON, lalu masukkan contoh data di atas.
 
-1. GET /masjid/:id (Melihat masjid tertentu)
-   Method: GET
-   URL: http://localhost:3000/masjid/<id> (ganti <id> dengan ID masjid)
+2. **GET /masjid** (Melihat semua masjid)
 
-1. PUT /masjid/:id (Mengedit masjid)
-   Method: PUT
-   URL: http://localhost:3000/masjid/<id>
-   Body: raw, JSON (contoh: { "menu_takjil": "Es Kelapa Muda" })
+   - Method: GET
+   - URL: `http://localhost:3000/masjid`
 
-1. DELETE /masjid/:id (Menghapus masjid)
-   Method: DELETE
-   URL: http://localhost:3000/masjid/<id>
+3. **GET /masjid/:id** (Melihat masjid tertentu)
+
+   - Method: GET
+     -URL: `http://localhost:3000/masjid/<id>` (ganti <id> dengan ID masjid)
+
+4. **PUT /masjid/:id** (Mengedit masjid)
+
+   - Method: PUT
+   - URL: `http://localhost:3000/masjid/<id>`
+   - Body: raw, JSON (contoh: { "menu_takjil": "Es Kelapa Muda" })
+
+5. **DELETE /masjid/:id** (Menghapus masjid)
+   - Method: DELETE
+   - URL: `http://localhost:3000/masjid/<id>`
 
 ### Example raw data Post
 
