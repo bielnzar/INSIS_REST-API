@@ -66,7 +66,7 @@ node app.js
 3. **GET /masjid/:id** (Melihat masjid tertentu)
 
    - Method: GET
-     -URL: `http://localhost:3000/masjid/<id>` (ganti <id> dengan ID masjid)
+   - URL: `http://localhost:3000/masjid/<id>` (ganti <id> dengan ID masjid)
 
 4. **PUT /masjid/:id** (Mengedit masjid)
 
