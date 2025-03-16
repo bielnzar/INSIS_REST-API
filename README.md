@@ -2,6 +2,8 @@
 
 Mata Kuliah Integrasi Sistem 2025
 
+Proyek 1 REST API - GO MASJID
+
 ## Kelompok I
 
 |      **Nama**       |  **NRP**   |
