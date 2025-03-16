@@ -81,20 +81,14 @@ node app.js
 ### Example raw data Post
 
 ```js
-[
-  {
-    nama: "Al Ikhlas",
-    lokasi: "Gebang Putih",
-    waktu_selesai_tarawih: "20:30",
-    hari: "Sabtu Minggu",
-    menu_takjil: "Nasi Kotak",
-  },
-  {
-    nama: "Masjid As Sa'adah",
-    lokasi: "Bumi Marina Emas",
-    waktu_selesai_tarawih: "20:05",
-    hari: "Setiap hari",
-    menu_takjil: "Gorengan + Es Cendol",
-  },
-];
+{
+  "nama": "Masjid Al-Falah",
+  "lokasi": "Medokan Semampir",
+  "waktu_selesai_tarawih": "20:30",
+  "hari": "Senin Kamis",
+  "menu_takjil": "Nasi Bebek Carok",
+  "gambar": "https://welcomesaudi.com/uploads/0000/1/2024/10/12/1-masjid-quba.jpg",
+  "kapasitas": 500,
+  "fasilitas": ["AC", "Parkir Luas", "WiFi"]
+}
 ```
