@@ -48,25 +48,47 @@ node app.js
 
 > Server akan berjalan di http://localhost:3000.
 
-### Use Example
+### Cara menguji di Postman
 
-- Post Berjamaah dari Postman
+1. POST /masjid (Menambah banyak masjid sekaligus)
+   Method: POST
+   URL: http://localhost:3000/masjid
+   Body: Pilih raw, tipe JSON, lalu masukkan contoh data di atas.
 
-```
+1. GET /masjid (Melihat semua masjid)
+   Method: GET
+   URL: http://localhost:3000/masjid
+
+1. GET /masjid/:id (Melihat masjid tertentu)
+   Method: GET
+   URL: http://localhost:3000/masjid/<id> (ganti <id> dengan ID masjid)
+
+1. PUT /masjid/:id (Mengedit masjid)
+   Method: PUT
+   URL: http://localhost:3000/masjid/<id>
+   Body: raw, JSON (contoh: { "menu_takjil": "Es Kelapa Muda" })
+
+1. DELETE /masjid/:id (Menghapus masjid)
+   Method: DELETE
+   URL: http://localhost:3000/masjid/<id>
+
+### Example raw data Post
+
+```js
 [
   {
-    "nama": "Al Ikhlas",
-    "lokasi": "Gebang Putih",
-    "waktu_selesai_tarawih": "20:30",
-    "hari": "Sabtu Minggu",
-    "menu_takjil": "Nasi Kotak"
+    nama: "Al Ikhlas",
+    lokasi: "Gebang Putih",
+    waktu_selesai_tarawih: "20:30",
+    hari: "Sabtu Minggu",
+    menu_takjil: "Nasi Kotak",
   },
   {
-    "nama": "Masjid As Sa'adah",
-    "lokasi": "Bumi Marina Emas",
-    "waktu_selesai_tarawih": "20:05",
-    "hari": "Setiap hari",
-    "menu_takjil": "Gorengan + Es Cendol"
-  }
-]
+    nama: "Masjid As Sa'adah",
+    lokasi: "Bumi Marina Emas",
+    waktu_selesai_tarawih: "20:05",
+    hari: "Setiap hari",
+    menu_takjil: "Gorengan + Es Cendol",
+  },
+];
 ```
