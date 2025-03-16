@@ -47,3 +47,26 @@ node app.js
 ```
 
 > Server akan berjalan di http://localhost:3000.
+
+### Use Example
+
+- Post Berjamaah dari Postman
+
+```
+[
+  {
+    "nama": "Al Ikhlas",
+    "lokasi": "Gebang Putih",
+    "waktu_selesai_tarawih": "20:30",
+    "hari": "Sabtu Minggu",
+    "menu_takjil": "Nasi Kotak"
+  },
+  {
+    "nama": "Masjid As Sa'adah",
+    "lokasi": "Bumi Marina Emas",
+    "waktu_selesai_tarawih": "20:05",
+    "hari": "Setiap hari",
+    "menu_takjil": "Gorengan + Es Cendol"
+  }
+]
+```
